@@ -64,8 +64,6 @@ Pantalla principal de la aplicación, donde se permite navegar entre diferentes 
   - `FloatingActionButton`: Navegación entre GIFs.
   - `FutureBuilder`: Para manejar datos asincrónicos.
 
----
-
 ## Análisis y Estructura de Archivos de la App
 ### Carpeta Assets
 La carpeta Assets es el lugar donde alojaremos las imágenes que tendrá nuestra App de forma local, es decir, no es una imagén obtenida de Internet.
