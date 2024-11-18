@@ -1,7 +1,7 @@
 
-# Documentación de la App
+# Práctica Obligatoria Flutter Tema 2
 
-Este repositorio contiene una aplicación Flutter que permite visualizar información sobre personajes y sus GIFs asociados. A continuación, se detalla la estructura y funcionalidad de los principales widgets y pantallas.
+Esta práctica consiste en crear una pantalla (screen) en Flutter en la que se realiza una petición a una API y, utilizando widgets, se muestra información obtenida de la respuesta de la API.
 
 ---
 
@@ -66,15 +66,24 @@ Pantalla principal de la aplicación, donde se permite navegar entre diferentes 
 
 ---
 
-## **Estructura de carpetas**
-- `models`: Define los modelos de datos (`Character` y `Gif`).
-- `services`: Contiene los servicios para obtener datos de personajes y GIFs.
-- `presentation/widgets`: Incluye widgets personalizados como `CharacterViewWidget`.
-- `assets`: Recursos estáticos como imágenes.
+## Análisis y Estructura de Archivos de la App
+### Carpeta Assets
+La carpeta Assets es el lugar donde alojaremos las imágenes que tendrá nuestra App de forma local, es decir, no es una imagén obtenida de Internet.
+En esta App guardaremos diferentes logos de Star Wars.
+
+### Carpeta lib
+Será la carpeta que contendrá todo el desarrollo de nuestra App, tanto ficheros de servicios, modelos de objetos y las diferenetes pantallas.
+Dicha carpeta se divide en:
+  - **models:** Esta carpeta contiene los archivos de los modelos de los objetos, que incluyen el modelo del personaje (character) y la imagen animada (GIF).
+  - **presentation:** Esta carpeta guarda los archivos relacionados con la lógica de comunicación con APIs. En este caso, contiene dos archivos:
+    - **screens:** Alberga los archivos que representan las diferentes pantallas de la App.
+    - **widgets:** Contiene los archivos de los widgets personalizados creados en la App.
+  - **services:** Guarda los ficheros relacionados con la lógica de comunicación con APIs. En este caso tenemos 2 ficheros:
+  - **main:**  Es el archivo principal que arranca la aplicación. Es el punto de entrada donde se inicializan los componentes y se gestiona el flujo general de la aplicación.
 
 ---
 
-## **Ejemplo del flujo de la App**
+## Funcionamiento de la App
 1. La pantalla principal muestra un botón para cargar los personajes desde un servicio remoto.
 2. Una vez cargados los personajes, se muestra el primero con su respectivo GIF.
 3. El usuario puede navegar entre diferentes GIFs de un personaje utilizando los botones de navegación.
