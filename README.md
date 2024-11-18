@@ -1,6 +1,7 @@
-# PracticaObligatoriaFlutter-Tema-2
+# PrácticaObligatoriaFlutter-Tema-2
+Esta práctica consiste en crear una pantalla (screen) en Flutter en la que se realiza una petición a una API y, utilizando widgets, se muestra información obtenida de la respuesta de la API.
 
-## Estructura de Archivos de la Aplicación
+## Estructura de Archivos de la App
 ### Carpeta Assets
 La carpeta Assets es el lugar donde alojaremos las imágenes que tendrá nuestra App de forma local, es decir, no es una imagén obtenida de Internet.
 En esta App guardaremos diferentes logos de Star Wars.
