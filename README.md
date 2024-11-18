@@ -11,8 +11,8 @@ Dicha carpeta se divide en:
   - **presentation:** Esta carpeta guarda los archivos relacionados con la lógica de comunicación con APIs. En este caso, contiene dos archivos:
     - **screens:** Alberga los archivos que representan las diferentes pantallas de la App.
     - **widgets:** Contiene los archivos de los widgets personalizados creados en la App.
-  - **services: **Guarda los ficheros relacionados con la lógica de comunicación con APIs. En este caso tenemos 2 ficheros:
-      - **characters_service: **Incluye los métodos encargados de realizar las peticiones a la API de Star Wars, que devuelve una lista de personajes.
-      - **gif_service: **Contiene los métodos encargados de realizar las peticiones a la API de GIFs, que devuelve una lista de GIFs relacionados con los nombres de los personajes obtenidos de la API anterior.
+  - **services:** Guarda los ficheros relacionados con la lógica de comunicación con APIs. En este caso tenemos 2 ficheros:
+      - **characters_service:** Incluye los métodos encargados de realizar las peticiones a la API de Star Wars, que devuelve una lista de personajes.
+      - **gif_service:** Contiene los métodos encargados de realizar las peticiones a la API de GIFs, que devuelve una lista de GIFs relacionados con los nombres de los personajes obtenidos de la API anterior.
 
 
