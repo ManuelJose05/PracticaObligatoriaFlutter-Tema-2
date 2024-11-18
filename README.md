@@ -1,10 +1,10 @@
 # PracticaObligatoriaFlutter-Tema-2
 
-**Carpeta Assets**
+### Carpeta Assets
 La carpeta Assets es el lugar donde alojaremos las imágenes que tendrá nuestra App de forma local, es decir, no es una imagén obtenida de Internet.
 En esta App guardaremos diferentes logos de Star Wars.
 
-**Carpeta lib**
+### Carpeta lib
 Será la carpeta que contendrá todo el desarrollo de nuestra App, tanto ficheros de servicios, modelos de objetos y las diferenetes pantallas.
 Dicha carpeta se divide en:
   - **models:** Esta carpeta contiene los archivos de los modelos de los objetos, que incluyen el modelo del personaje (character) y la imagen animada (GIF).
