@@ -14,5 +14,5 @@ Dicha carpeta se divide en:
   - **services:** Guarda los ficheros relacionados con la lógica de comunicación con APIs. En este caso tenemos 2 ficheros:
       - **characters_service:** Incluye los métodos encargados de realizar las peticiones a la API de Star Wars, que devuelve una lista de personajes.
       - **gif_service:** Contiene los métodos encargados de realizar las peticiones a la API de GIFs, que devuelve una lista de GIFs relacionados con los nombres de los personajes obtenidos de la API anterior.
-
+  - **main:**  Es el archivo principal que arranca la aplicación. Es el punto de entrada donde se inicializan los componentes y se gestiona el flujo general de la aplicación.
 
