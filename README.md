@@ -19,11 +19,11 @@ Dicha carpeta se divide en:
 
 
 ## Funcionamiento de la App
-Al iniciar la aplicación, no se realiza automáticamente ninguna petición a la API. En su lugar, se muestra un texto pulsable acompañado de un círculo de progreso, indicando que el usuario debe pulsar sobre el texto para cargar la información de los personajes. 
+Al iniciar la aplicación, no se realiza automáticamente ninguna petición a la API. En su lugar, se muestra un texto pulsable acompañado de un círculo de progreso, indicando que el usuario debe pulsar sobre el texto para cargar la información de los personajes. <br>
 Al hacer clic, la app realiza una petición a la API de Star Wars para obtener los datos del personaje, como su nombre, altura y color de pelo.
 
 Posteriormente, con los datos del personaje, se realiza una segunda petición a la API de GIFs para obtener una imagen animada relacionada con el personaje. Toda esta información se presenta en pantalla de manera organizada.<br>
-La API de GIFs trae una lista de GIFs relacionados con el personaje, debajo de la información del personaje, hay dos botones que permiten al usuario desplazarse a través de ellos. Al presionar el botón de ">", se muestra el siguiente GIF en la lista, mientras que al presionar el botón de "<", se muestra el GIF anterior.
+<br>La API de GIFs trae una lista de GIFs relacionados con el personaje, debajo de la información del personaje, hay dos botones que permiten al usuario desplazarse a través de ellos. Al presionar el botón de ">", se muestra el siguiente GIF en la lista, mientras que al presionar el botón de "<", se muestra el GIF anterior.
 
 El AppBar también incluye un botón que, al ser presionado, genera y muestra un personaje aleatorio con sus respectivos detalles y GIF.
 
